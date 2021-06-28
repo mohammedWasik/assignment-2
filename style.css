@@ -1,0 +1,188 @@
+    body {
+        background-color: rosybrown;
+    }
+    
+    .main {
+        margin: 10px;
+        padding: 20px;
+    }
+    /* navbar*/
+    
+    .navbar {
+        margin: 2px;
+    }
+    
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background: #6b4242
+    }
+    
+    li {
+        float: left;
+    }
+    
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    
+    li a:hover {
+        background-color: #ddcece;
+        color: #6b4242;
+    }
+    /* quote*/
+    
+    .quotePart {
+        margin: 15px;
+        padding: 5px;
+        display: grid;
+        grid-template-columns: 90% 10%;
+        bottom: 0;
+        left: 0;
+        position: absolute;
+        width: 100%;
+    }
+    
+    .quote {
+        border: 3px solid rgb(54, 5, 5);
+        padding: 15px;
+        margin: 20px;
+        background-color: wheat;
+        overflow: hidden;
+    }
+    
+    .buttons {
+        position: relative;
+    }
+    
+    .innerDivButtons {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 65%;
+        height: 70%;
+    }
+    
+    .innerDivButtons button {
+        border: 1px solid #0A1D37;
+        cursor: pointer;
+        padding: 7px;
+        display: block;
+        margin: 3px;
+        margin-left: -19PX;
+        width: 59%;
+    }
+    
+    #id1 {
+        background-color: #78DEC7;
+    }
+    
+    #id2 {
+        background-color: #5E454B;
+    }
+    
+    #id3 {
+        background-color: #F54748;
+    }
+    
+    #id4 {
+        background-color: #99154E;
+    }
+    /*converter*/
+    /* Chrome, Safari, Edge, Opera */
+    
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+    /* Firefox */
+    
+    input[type=number] {
+        -moz-appearance: textfield;
+    }
+    
+    .converter {
+        margin: 35px;
+    }
+    
+    fieldset {
+        border: 2px solid #6b4242;
+        font-family: 'Big Shoulders Stencil Display';
+    }
+    
+    .mainfield {
+        height: 8%;
+        padding: 15px;
+        margin: 15px;
+    }
+    /*math*/
+    
+    .mathform {
+        margin: 15px;
+        margin-top: 50px;
+    }
+    
+    .mathform fieldset {
+        padding: 15px;
+    }
+    
+    .mathform label {
+        display: inline-block;
+        width: 40%;
+        text-align: right;
+        padding: 15px;
+    }
+    
+    .mathform button {
+        margin-top: 10px;
+        border: none;
+        border-radius: 3px;
+        text-align: center;
+        text-decoration: none;
+        width: 100%;
+    }
+    
+    .mathform button:hover {
+        background-color: #cacaca
+    }
+    /*part33333333333333333333333*/
+    
+    .magic {
+        border: 1px solid black;
+    }
+    
+    .magic {
+        margin: 20px;
+        padding: 10px;
+    }
+    
+    .magictext {
+        display: block;
+        margin: 10px;
+    }
+    
+    .btngrp {
+        display: block;
+        margin: 10px;
+    }
+    
+    .btngrp button {
+        border: none;
+        width: 20%;
+        text-align: center;
+        text-decoration: none;
+        margin: 5px;
+        padding: 5px;
+    }
+    
+    .btngrp button:hover {
+        background-color: #cacaca;
+    }

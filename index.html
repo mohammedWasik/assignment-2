@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="generator" content="HTML Tidy for HTML5 for Linux version 5.2.0">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/images/favicon_io/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&amp;family=Viaoda+Libre&amp;family=Yellowtail&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Assignment 2</title>
+</head>
+
+<body>
+    <div class="navbar">
+        <ul>
+            <li><a href="http://mohammedwasik.freecluster.eu/">Assignment
+1</a></li>
+            <li><a href="math.html">Math Page</a></li>
+            <li><a href="magic.html">Magic Thingy</a></li>
+        </ul>
+    </div>
+    <div class="main">
+        <div class="converter" id="converter">
+            <div>
+                <form action="" id="form" name="form">
+                    <fieldset class="mainfield">
+                        <legend>Converter</legend> <input type="number" class="numberfield" id="numberfield" placeholder="Enter Mass"> <select name="choice" id="choice">
+<option id="kg" value="kg">Lb to Kg</option>
+<option id="lb" value="lb">Kg to Lb</option>
+</select> <button type="submit" value="submit" onclick="return convert()">Convert</button> <button type="reset">Reset</button> <span id="answer" class="answer"></span></fieldset>
+                </form>
+            </div>
+        </div>
+        <div class="quotePart" id="quotePart">
+            <div class="quote" id="quote">
+                <p id="quotebox"></p>
+            </div>
+            <div class="buttons">
+                <div class="innerDivButtons"><button id="id1" onclick="id1change()"></button> <button id="id2" onclick="id2change()"></button> <button id="id3" onclick="id3change()"></button> <button id="id4" onclick="id4change()"></button></div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js">
+    </script>
+</body>
+
+</html>

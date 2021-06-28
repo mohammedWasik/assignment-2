@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="generator" content=
+"HTML Tidy for HTML5 for Linux version 5.2.0">
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content=
+"width=device-width, initial-scale=1.0">
+<link rel="shortcut icon" href=
+"/images/favicon_io/favicon-32x32.png" type="image/x-icon">
+<link rel="stylesheet" href="normalize.css">
+<link rel="stylesheet" href="style.css">
+<title>Math(Part 2)</title>
+</head>
+<body>
+<div class="navbar">
+<ul>
+<li><a href="http://mohammedwasik.freecluster.eu/">Assignment
+1</a></li>
+<li><a href="index.html">Home Page</a></li>
+<li><a href="magic.html">Magic Thingy</a></li>
+</ul>
+</div>
+<div class="mathform">
+<form action="" id="formMath" name="formMath">
+<fieldset><label for="input">Input Series of Number</label>
+<input type="text" name="input" placeholder="enter number here"
+oninput="mathConverter(this.value)" onchange=
+"mathConverter(this.value)"><br>
+<label for="Max">Max:</label> <span id="Max"></span><br>
+<label for="Min">Min:</label> <span id="Min"></span><br>
+<label for="Sum">Sum:</label> <span id="Sum"></span><br>
+<label for="Average">Average:</label> <span id=
+"Average"></span><br>
+<label for="Reverse Order">Reverse Order:</label> <span id=
+"ReverseOrder"></span><br>
+<button type="reset" onclick=
+"return resetP()">Reset</button></fieldset>
+</form>
+</div>
+<script src="script.js">
+</script>
+</body>
+</html>
